@@ -35,7 +35,7 @@ function App() {
         <div className="bg-[#e0e1dd] min-w-md h-50 rounded-md mt-10 px-4 py-3">
           <h1 className="text-3xl text-center mb-3">OTP Generator</h1>
           <div className="min-w-3xs bg-white flex rounded-md justify-between">
-            <input className="pl-2"
+            <input className="pl-2 w-full"
             type="text"
             readOnly 
             value={otp}
